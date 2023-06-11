@@ -32,7 +32,7 @@ export class OrderModalView{
   }
 
   addOrderForm() {
-    const template = `<form class='order__form order-form' id="order-form">
+    return `<form class='order__form order-form' id="order-form">
                        <div class="order-form__row">
                                <label for="full-name" class="order-form__label">
                                    <span class="order-form__text">
@@ -105,7 +105,6 @@ export class OrderModalView{
                        </div>
                        <input type='submit' class='order-form__button' value='Подтвердить'>
                    </form>`;
-    return template;
   }
 
   addHandlers() {

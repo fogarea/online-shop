@@ -5,7 +5,7 @@ import {
   Category,
   Product,
   State
-} from "store/index";
+} from "../store";
 
 const Products = require("../store/products.json");
 
@@ -299,14 +299,14 @@ export class Model extends Observer {
 
       if (
         selectedCategories.length &&
-        selectedCategories.includes(product.category.id.toString()) === false
+        !selectedCategories.includes(product.category.id.toString())
       ) {
         product.show = false;
       }
 
       if (
         selectedBrands.length &&
-        selectedBrands.includes(product.brand.id.toString()) === false
+        !selectedBrands.includes(product.brand.id.toString())
       ) {
         product.show = false;
       }

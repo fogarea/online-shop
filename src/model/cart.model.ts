@@ -1,4 +1,4 @@
-import { Pagination, State } from "store/index";
+import { Pagination, State } from "../store";
 import { PROMO } from "types/promo";
 
 export class CartModel {

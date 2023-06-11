@@ -1,4 +1,4 @@
-import { State } from "store/index";
+import { State } from "../store";
 
 export class SearchModel {
   changePattern(searchPattern: string) {
