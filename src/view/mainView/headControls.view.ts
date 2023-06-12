@@ -45,11 +45,9 @@ export class HeadControlsView {
   }
 
   addFilterHandler(button: HTMLButtonElement) {
-    button?.addEventListener("click", (e) => {
+    button?.addEventListener("click", () => {
       const filter = document.querySelector(".filter");
-      const target = e.target as HTMLElement;
       filter?.classList.add("filter--show");
-      console.log(target);
 
       Utils.addEvent(".filter", "click", (e) => {
         const target = e.target as HTMLElement;
