@@ -1,7 +1,7 @@
-import { State } from "../../src/store/index";
+import { State } from "../../src/store";
 import { RouterController } from "../../src/controller/router.controller";
 import { CartController } from "../../src/controller/cart.controller";
-import { Model } from "../../src/model/index";
+import { Model } from "../../src/model";
 
 let cartController: CartController;
 let model: Model;
