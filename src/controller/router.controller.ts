@@ -1,5 +1,5 @@
-import { State } from "store/index";
-import { Model } from "../model/index";
+import { State } from "../store";
+import { Model } from "../model";
 import { SearchParamsArray } from "types/searchParams";
 import { PaginationParamsArray } from "types/paginationParams";
 

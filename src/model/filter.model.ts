@@ -1,12 +1,12 @@
-import { State } from "store/index";
+import { State } from "../store";
 
 export class FilterModel {
   changeCategory(checked: boolean, id: number) {
-    State.categories.map((categorie) => {
-      if (categorie.id === id) {
-        categorie.checked = checked;
+    State.categories.map((category) => {
+      if (category.id === id) {
+        category.checked = checked;
       }
-      return categorie;
+      return category;
     });
   }
 

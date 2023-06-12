@@ -1,5 +1,5 @@
 import { SearchParams } from "types/searchParams";
-import { Model } from "../model/index";
+import { Model } from "../model";
 import { CartController } from "./cart.controller";
 import { FilterController } from "./filter.controller";
 import { RouterController } from "./router.controller";

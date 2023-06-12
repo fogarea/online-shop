@@ -1,5 +1,5 @@
 import { PaginationParams } from "types/paginationParams";
-import { Model } from "../model/index";
+import { Model } from "../model";
 import { RouterController } from "./router.controller";
 
 export class CartController {

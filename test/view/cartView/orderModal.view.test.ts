@@ -1,5 +1,5 @@
-import { Model } from "../../../src/model/index";
-import { Controller } from "../../../src/controller/index";
+import { Model } from "../../../src/model";
+import { Controller } from "../../../src/controller";
 import { OrderModalView } from "../../../src/view/cartView/orderModal.view";
 import { Utils } from "../../../src/utils/utils";
 

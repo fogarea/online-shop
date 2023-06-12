@@ -1,5 +1,5 @@
-import { State } from "../../src/store/index";
-import { Model } from "../../src/model/index";
+import { State } from "../../src/store";
+import { Model } from "../../src/model";
 import * as Products from "../../src/store/products.json";
 
 const model = new Model();

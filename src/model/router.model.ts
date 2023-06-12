@@ -1,4 +1,4 @@
-import { State } from "store/index";
+import { State } from "../store";
 import { PaginationParams } from "types/paginationParams";
 import { SearchParams, SearchParamsObject } from "types/searchParams";
 
