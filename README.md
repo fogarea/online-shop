@@ -35,7 +35,7 @@ $ git clone https://github.com/fogarea/online-shop.git
 $ cd online-shop
 
 # Install the dependencies
-$ npm install --force
+$ npm install
 
 # Start the development server
 $ npm run start
